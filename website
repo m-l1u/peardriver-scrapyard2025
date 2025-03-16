@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pear Driver</title>
+    <style>
+        @font-face {
+            font-family: 'SF Pro Display';
+            src: url('https://developer.apple.com/fonts/SF-Pro.ttf');
+        }
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: white;
+            color: #1d1d1f;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 0;
+            font-size: 12px;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #494949;
+            font-weight: 400;
+        }
+        .logo {
+            height: 18px;
+            margin: 0 15px;
+        }
+        .search-icon, .bag-icon {
+            height: 18px;
+        }
+        .hero {
+            background: white;
+            padding: 40px 20px;
+            margin: 0 auto;
+        }
+        .product-header {
+            text-align: left;
+            max-width: 980px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+        .product-title {
+            font-size: 25px;
+            font-weight: 500;
+            margin: 0;
+            text-align: left;
+        }
+        .hero h1 {
+            font-size: 72px;
+            margin: 0;
+            font-weight: 600;
+            letter-spacing: -0.015em;
+            line-height: 1.1;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .hero p {
+            font-size: 23px;
+            color: #1d1d1f;
+            max-width: 730px;
+            margin: 30px auto;
+            line-height: 1.4;
+            font-weight: 400;
+        }
+        .product-image {
+            width: 100vw;
+            height: 100vh;
+            background: url('https://media.discordapp.net/attachments/1202851945803554817/1350670288081391636/um8BvTa.png?ex=67d7953a&is=67d643ba&hm=fd22753650a11cb48a1ac6dc8194255394b53aafb9bd84ba4e84b8b0802d3f08&=&format=webp&quality=lossless&width=2170&height=1221') no-repeat center center/cover;
+            margin: 0 -20px;
+        }
+        .link {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .link:after {
+            content: " ›";
+        }
+        .shop-button {
+            background: #0071e3;
+            color: white;
+            padding: 8px 25px;
+            border-radius: 980px;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            min-width: 60px;
+            text-align: center;
+        }
+        .content-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .nav-icon {
+            width: auto;
+            height: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="about:blank">
+            <img src="https://user-uploads.perchance.org/file/e946bb319f5cfa3fb49dd904e91cd5f2.png" class="logo" alt="Pear logo">
+        </a>
+        <a href="about:blank">Store</a>
+        <a href="about:blank">Crak</a>
+        <a href="about:blank">uPad</a>
+        <a href="about:blank">uPhone</a>
+        <a href="about:blank">Clock</a>
+        <a href="about:blank">Myopia</a>
+        <a href="about:blank">GroundPods</a>
+        <a href="about:blank">TV & Home</a>
+        <a href="about:blank">Entertainment</a>
+        <a href="about:blank">Accessories</a>
+        <a href="about:blank">Support</a>
+        <a href="about:blank">
+            <img src="https://gcdnb.pbrd.co/images/3b0MuOohFvZB.png?o=1" class="nav-icon search-icon" alt="Search">
+        </a>
+        <a href="about:blank">
+            <img src="https://gcdnb.pbrd.co/images/eaUxhD1pkXph.png?o=1" class="nav-icon bag-icon" alt="Shopping bag">
+        </a>
+    </div>
+    <div class="hero">
+        <div class="content-wrapper">
+            <div class="product-header">
+                <h2 class="product-title">Pear Driver</h2>
+                <a href="about:blank" class="shop-button">Shop</a>
+            </div>
+            
+            <h1>Screw it up. Tighten it down.</h1>
+            
+            <p>Pear Driver sets the standard for how fastening, loosening, and adjusting should feel — effortless, precise, and powerful. With infinite torque, low-slip threading, zero resistance, and next-gen auto-reverse technology, Pear Driver redefines what a screwdriver can be.</p>
+            
+            <a href="about:blank" class="link">View all Pear Driver features</a>
+        </div>
+    </div>
+    <div class="product-image"></div>
+</body>
+</html>
