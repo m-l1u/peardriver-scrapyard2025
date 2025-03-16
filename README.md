@@ -9,7 +9,7 @@ Please check the renders file for some of the renders we haven't used in the "we
 - The screw head is also like apple; its not flathead or Phillips, its custom
 - Comes in multiple colours - white & black
 
-See the website here: [https://d3d26cb0-2673-4c08-b244-909822529e41-00-1wx7vhlc5ydbu.janeway.replit.dev/](https://replit.com/@marcoliu3/Pear-Driver) (hopefully it works).
+See the website here: [https://replit.com/@marcoliu3/Pear-Driver] (hopefully it works).
 
 The links within the website do not work - this is intentional. They will redirect you to "about:blank".
 
